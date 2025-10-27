@@ -1,0 +1,84 @@
+# ======================================
+# Python
+# ======================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+build/
+dist/
+
+# ======================================
+# Virtual Environments
+# ======================================
+.env/
+.venv/
+venv/
+ENV/
+env/
+*.venv
+
+# ======================================
+# Environment & Secrets
+# ======================================
+# Local environment variables and API keys
+.env
+*.env
+apikeys.json
+
+# ======================================
+# Streamlit
+# ======================================
+.streamlit/config.toml
+.streamlit/secrets.toml
+# Cache directories
+.streamlit/cache/
+.streamlit/static/
+.streamlit/deployments/
+
+# ======================================
+# Logs and Databases
+# ======================================
+*.log
+*.db
+*.sqlite
+*.sqlite3
+
+# ======================================
+# Jupyter / Notebooks
+# ======================================
+.ipynb_checkpoints/
+*.ipynb
+
+# ======================================
+# OS and IDE files
+# ======================================
+# Windows
+Thumbs.db
+Desktop.ini
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+# Linux
+*~
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ======================================
+# Test / Coverage / Reports
+# ======================================
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+htmlcov/
+pytest_cache/
